@@ -1,0 +1,7 @@
+* {
+    text-decoration: none;
+    font-family: var(--theme-main-font-family);
+    border: none;
+    outline: none;
+    margin: 0;
+}

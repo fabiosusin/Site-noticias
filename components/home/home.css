@@ -1,0 +1,108 @@
+.page-container header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: var(--theme-darker-color);
+    color: var(--theme-main-font-color-light);
+    font-weight: bold;
+}
+
+.page-container header .menu .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.page-container header .menu .title i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.page-container header a {
+    color: var(--theme-main-font-color-light);
+    transition: 0.3s;
+}
+
+.page-container header a:hover {
+    color: var(--theme-main-font-color-light-hover);
+}
+
+.page-container section.initial-page {
+    min-height: calc(100vh - 60px);
+    background: var(--theme-darker-color-brighter2);
+    position: relative;
+}
+
+.page-container section.initial-page .center-content {
+    height: 100%;
+    display: flex;
+}
+
+.page-container section.initial-page .center-content .monitor-content {
+    max-width: 1024px;
+    min-width: 40%;
+    margin: auto;
+}
+
+.page-container section.initial-page .center-content .monitor {
+    background: #000;
+    position: relative;
+    border-top: 3px solid #888;
+    padding: 2% 2% 4% 2%;
+    border-radius: 10px;
+    border-bottom-left-radius: 50% 2%;
+    border-bottom-right-radius: 50% 2%;
+    transition: margin-right 1s;
+}
+
+.page-container section.initial-page .center-content .monitor:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 3%;
+    left: 36%;
+    height: 0.5%;
+    width: 28%;
+    background: #ddd;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 0 white;
+}
+
+.page-container section.initial-page .center-content .monitor-screen {
+    position: relative;
+    background-color: #777;
+    background-size: cover;
+    background-position: top center;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-container section.initial-page .center-content .monitor-screen p {
+    position: absolute;
+    color: var(--theme-main-font-color-light);
+    font-weight: bold;
+    font-size: 30px;
+    top: 40%;
+    width: 44%;
+    right: 0;
+}
+
+.page-container section.initial-page .center-content .monitor-screen img {
+    transition: 0.7s;
+}
+
+.page-container section.initial-page .center-content .monitor-screen:hover img {
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+.page-container section.initial-page .left-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
