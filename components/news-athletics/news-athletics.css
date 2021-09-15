@@ -1,0 +1,282 @@
+.page-container header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: var(--theme-darker-color);
+    color: var(--theme-main-font-color-light);
+    font-weight: bold;
+}
+
+.page-container header .logo {
+    font-size: 25px;
+}
+
+.page-container header .menu .title {
+    cursor: pointer;
+}
+
+.page-container header .menu .title i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.page-container header a {
+    color: var(--theme-main-font-color-light);
+    transition: 0.3s;
+}
+
+.page-container header a:hover {
+    color: var(--theme-main-font-color-light-hover);
+}
+
+.page-container section.content .align-content {
+    width: 50%;
+}
+
+.page-container section.content .align-content nav {
+    height: 100px;
+    justify-content: start;
+}
+
+.page-container section.content .align-content nav span {
+    margin: 0 10px;
+}
+
+.page-container section.content .align-content nav a {
+    color: var(--theme-darker-color);
+}
+
+.page-container section.content .header-infos .page-category {
+    background: var(--green);
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: var(--theme-main-font-color-light);
+}
+
+.page-container section.content .header-infos h1 {
+    margin: 50px 0;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.page-container section.content .header-infos h3 {
+    color: var(--theme-main-font-color-darker);
+    font-weight: 500;
+}
+
+.page-container section.content .header-infos .designed-info {
+    color: var(--theme-darker-color);
+    font-weight: 500;
+    height: 80px;
+    justify-content: flex-start;
+}
+
+.page-container section.content .header-infos .designed-info img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.page-container section.content .header-infos .designed-info span i {
+    margin-left: 10px;
+}
+
+.page-container section.content .header-infos .designed-info .with-trace:before {
+    content: "\2014";
+    padding: 0 4px;
+    display: inline-block;
+    transform: scale(0.916);
+}
+
+.page-container section.content .header-infos .social-medias {
+    height: 50px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.page-container section.content .header-infos .social-medias div {
+    margin-right: 10px;
+    height: 100%;
+    color: var(--theme-main-font-color-light);
+    background: var(--shadow);
+    font-weight: bold;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.page-container section.content .header-infos .social-medias div:hover {
+    filter: brightness(110%);
+}
+
+.page-container section.content .header-infos .social-medias div i {
+    margin-right: 10px;
+}
+
+.page-container section.content .header-infos .social-medias div.facebook {
+    background: var(--facebook-color);
+}
+
+.page-container section.content .header-infos .social-medias div.twitter {
+    background: var(--twitter-color);
+}
+
+.page-container section.content .header-infos .social-medias div.pinterest {
+    background: var(--pinterest-color);
+}
+
+.page-container section.content .news-content {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.page-container section.content .news-content .left-content {
+    width: 70%;
+}
+
+.page-container section.content .news-content .left-content,
+.page-container section.content .news-content .right-content {
+    overflow: hidden;
+}
+
+.page-container section.content .news-content .left-content img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.page-container section.content .news-content .right-content {
+    width: 25%;
+}
+
+.page-container section.content .news-content .right-content .top-news,
+.page-container section.content .news-content .right-content .last-news {
+    width: 100%;
+}
+
+.page-container section.content .news-content .right-content .top-news .header-category-name {
+    margin-bottom: 20px;
+}
+
+.page-container section.content .news-content .right-content .top-news .list-news .news {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.page-container section.content .news-content .right-content .top-news .list-news .news .infos:first-child {
+    margin-bottom: 10px;
+}
+
+.page-container section.content .news-content .right-content .top-news .list-news .news .infos * {
+    width: 100%;
+    font-weight: bold;
+}
+
+.page-container section.content .news-content .right-content .top-news .list-news .news .infos {
+    width: 60%;
+    justify-content: start;
+}
+
+.page-container section.content .news-content .right-content .top-news .list-news .news .infos .date {
+    color: var(--theme-main-font-color-darker);
+    margin-top: 20px;
+}
+
+.page-container section.content .news-content .right-content .top-news .list-news .news img {
+    width: 30%;
+    height: 90px;
+    object-fit: cover;
+}
+
+.page-container section.content .news-content .right-content .last-news .header-category-name {
+    margin: 20px 0;
+}
+
+.page-container section.content .news-content .right-content .last-news .card .image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.page-container section.content .news-content .right-content .last-news .card .description {
+    margin: 10px 0;
+    justify-content: flex-start;
+    height: 70px;
+    font-weight: bold;
+}
+
+.page-container section.content .news-content .right-content .last-news .card .description span {
+    color: var(--theme-main-font-color-darker);
+}
+
+.page-container section.content .news-content .left-content > p,
+.page-container section.content .news-content .left-content > cite,
+.page-container section.content .news-content .left-content > h1 {
+    padding: 0 20px;
+    margin: 40px 0;
+    font-size: 20px;
+    color: var(--theme-main-font-color-darker);
+}
+
+.page-container section.content .news-content h1 {
+    color: unset;
+    font-size: 30px;
+}
+
+.page-container section.content .news-content .cite {
+    border-left: 4px solid var(--green);
+    height: 80px;
+    padding: 0 20px;
+    margin-left: 20px;
+}
+
+.page-container section.content .news-content .cite cite {
+    margin: 0;
+    font-weight: bold;
+}
+
+.page-container footer {
+    margin-top: 50px;
+    height: 200px;
+    background: var(--theme-darker-color-brighter);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: var(--theme-main-font-color-light);
+}
+
+.page-container footer .site-infos,
+.page-container footer .social-medias {
+    justify-content: space-around;
+}
+
+.page-container footer .social-medias a {
+    height: 50px;
+    width: 50px;
+    background: var(--theme-darker-color);
+    border-radius: 30px;
+    color: var(--theme-main-font-color-light);
+    transition: 0.3s;
+}
+
+.page-container footer .social-medias a:hover {
+    color: var(--theme-main-font-color-light-hover);
+    transition: 0.3s;
+}
+
+.page-container footer .site-infos a {
+    color: var(--theme-main-font-color-light);
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.page-container footer .site-infos a:hover {
+    color: var(--theme-main-font-color-light-hover);
+    transition: 0.3s;
+}
